@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: component-sample-1
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/sample-image@sha256:bd1debbff90063bd3fa773b36d384c8d0480cd9086f7c590a613efccbf6e4413
+      - image: hacbs-jvm-build-test-project:latest
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
